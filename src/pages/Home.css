@@ -1,0 +1,10 @@
+.container-home{
+    background-color:#141c38 ;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.container-home p {
+    margin-left: 35px;
+    font-size: 25px;
+}

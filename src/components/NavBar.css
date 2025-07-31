@@ -1,0 +1,29 @@
+/* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;                    
+  box-sizing: border-box;         
+  background-color: #010208;
+  padding: 10px 20px;
+  overflow-x: hidden;             
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 150px;
+  margin-left: auto; /* empurra para a direita */
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.nav-links a:hover {
+  color: #00c8ff;
+}
